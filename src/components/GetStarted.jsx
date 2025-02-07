@@ -13,13 +13,16 @@ const GetStarted = () => {
           <h2 style={{ color: "black" }}>Get started!</h2>
         </MotionX>
         <Motion>
-          <p>Fresh bakes everyday. You will love our menu</p>
+          <p>
+            AstroMovies Got you covered on every movie of your choice to, to
+            know more contact us{" "}
+          </p>
         </Motion>
       </div>
       <MotionRight>
         <div className="download_sect">
-          <img src={apple} alt="" />
-          <img src={playstore} alt="" />
+          <img onClick={() => alert("Coming soon!")} src={apple} alt="" />
+          <img onClick={() => alert("Coming soon!")} src={playstore} alt="" />
         </div>
       </MotionRight>
     </section>

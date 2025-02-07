@@ -21,7 +21,7 @@ const Footer = () => {
             <img src={HeaderLogo} alt="" />
           </Motion>
           <MotionX>
-            <p>From Oven to You, Taste the Difference!</p>
+            <p>We make it possible for you to easily get movies download</p>
           </MotionX>
         </div>
         <div className="footer_links_item_two">
@@ -45,22 +45,16 @@ const Footer = () => {
           <MotionX>
             <div className="flex">
               <MdLocationPin size={18} color="white" style={{ width: "10%" }} />
-              <p>
-                <a href="#">Yenagoa Bayelsa</a>
-              </p>
+              <p>Africa</p>
             </div>
           </MotionX>
           <MotionRight>
             <div className="flex">
-              <BsTelephone size={18} color="white" style={{ width: "10%" }} />
-              <p>08182736828</p>
-            </div>
-          </MotionRight>
-          <MotionRight>
-            <div className="flex">
               <AiOutlineMail size={18} color="white" style={{ width: "10%" }} />
               <p>
-                <a href="mailto:info@bellsbreads.com">Info@bellsbreads.com</a>
+                <a href="mailto:info@bellsbreads.com">
+                  support@astromovies.com
+                </a>
               </p>
             </div>
           </MotionRight>
@@ -68,7 +62,7 @@ const Footer = () => {
       </section>
       <section className="footer_contact">
         <p>
-          <Motion>© All Rights Reserved. 2023, AdizaFoods</Motion>
+          <Motion>© All Rights Reserved. 2025, AstroMovies</Motion>
         </p>
         <div className="footer_icon_section">
           <MotionX>

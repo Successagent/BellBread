@@ -20,7 +20,9 @@ const Header = () => {
     <header>
       <div className="header_logo">
         <Motion>
+          {/* <Link to={"/"}> */}
           <img src={HeaderLogo} alt="" />
+          {/* </Link> */}
         </Motion>
       </div>
       <MotionX>

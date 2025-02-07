@@ -1,0 +1,31 @@
+.movie_section_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    gap: 30px;
+    padding-top: 150px;
+}
+
+.movie_section_wrapper img {
+    height: auto;
+}
+
+.movie_section_img,
+.movie_section_text {
+    width: 50%;
+}
+
+.movie_section_img h3 {
+    margin: 20px 0;
+    font-weight: 500;
+}
+
+.movie_section_img li a {
+    color: black;
+    margin-top: 10px;
+    display: block;
+}
+
+.movie_section_text h2 {
+    color: black !important;
+}
