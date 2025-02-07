@@ -133,7 +133,7 @@ export const MOVIES_TO_WATCH = [
       "https://moviebox.ng/movies/moana-2-C1roud60JE4?id=3908506583235477456&scene=&type=/movie/detail",
     ],
     image: moana,
-    id: "Moana_Part_2",
+    id: "moana_part_2",
     brief_intro:
       "In this thrilling sequel, Moana faces a formidable new challenge when the Coconut Kingdom, a militant tribe descended from the Kakamora, threatens Motunui’s peace. Armed with armored coconut hulls and razor-sharp projectiles, they seek an ancient artifact hidden on Moana’s island, believing it holds the power to restore their barren lands. As tensions escalate into explosive naval battles, Moana and Maui navigate treacherous waters, uncovering the Kingdom’s desperation—a cursed blight withering their coconut groves. Blending courage with empathy, Moana devises a daring plan: unite both tribes to reignite the heart of Te Fiti, healing the land and bridging their divide. With dynamic oceanic clashes, Maui’s shapeshifting prowess, and themes of unity over conflict, the adventure culminates in a pact of shared stewardship, proving that understanding and cooperation are the greatest strengths of all.",
   },
