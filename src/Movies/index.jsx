@@ -19,7 +19,7 @@ const Movies = () => {
           <img src={image} alt="" />
           <h3>Click Links Download or Watch</h3>
           <ul>
-            {download_links.map((links, index) => (
+            {download_links?.map((links, index) => (
               <li key={index}>
                 <a href={links} rel="noopener noreferrer">
                   Download link {index + 1}

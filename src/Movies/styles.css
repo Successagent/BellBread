@@ -29,3 +29,16 @@
 .movie_section_text h2 {
     color: black !important;
 }
+
+@media(max-width:600px) {
+    .movie_section_wrapper {
+        flex-direction: column;
+        padding: 30px;
+        padding-top: 80px;
+    }
+
+    .movie_section_img,
+    .movie_section_text {
+        width: 100%;
+    }
+}
