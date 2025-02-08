@@ -128,8 +128,8 @@ export const MOVIES_TO_WATCH = [
   {
     name: "Moana Part 2",
     download_links: [
-      "https://poawooptugroo.com/4/8901022",
-      "https://poawooptugroo.com/4/8901022",
+      "https://poawooptugroo.com/4/8899412",
+      "https://poawooptugroo.com/4/8899412",
       "https://tfpdl.se/moana-2-2024-proper-2160p-web-dl-dd5-1-x265-tfpdl/",
       "https://moviebox.ng/movies/moana-2-C1roud60JE4?id=3908506583235477456&scene=&type=/movie/detail",
     ],
@@ -139,10 +139,10 @@ export const MOVIES_TO_WATCH = [
       "In this thrilling sequel, Moana faces a formidable new challenge when the Coconut Kingdom, a militant tribe descended from the Kakamora, threatens Motunui’s peace. Armed with armored coconut hulls and razor-sharp projectiles, they seek an ancient artifact hidden on Moana’s island, believing it holds the power to restore their barren lands. As tensions escalate into explosive naval battles, Moana and Maui navigate treacherous waters, uncovering the Kingdom’s desperation—a cursed blight withering their coconut groves. Blending courage with empathy, Moana devises a daring plan: unite both tribes to reignite the heart of Te Fiti, healing the land and bridging their divide. With dynamic oceanic clashes, Maui’s shapeshifting prowess, and themes of unity over conflict, the adventure culminates in a pact of shared stewardship, proving that understanding and cooperation are the greatest strengths of all.",
   },
   {
-    name: "Venom Last Dance 2024",
+    name: "Venom The Last Dance 2024",
     download_links: [
-      "https://poawooptugroo.com/4/8901022",
-      "https://poawooptugroo.com/4/8901022",
+      "https://poawooptugroo.com/4/8899412",
+      "https://poawooptugroo.com/4/8899412",
       "https://v.moviebox.ng/qV451p0llX8",
       "https://tfpdl.se/?s=venom+the+last+dance",
     ],
