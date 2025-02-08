@@ -1,4 +1,5 @@
 import moana from "../asset/moanas.webp";
+import venom from "../asset/venom.jpg";
 
 export const pinTabs = [
   {
@@ -138,11 +139,17 @@ export const MOVIES_TO_WATCH = [
       "In this thrilling sequel, Moana faces a formidable new challenge when the Coconut Kingdom, a militant tribe descended from the Kakamora, threatens Motunui’s peace. Armed with armored coconut hulls and razor-sharp projectiles, they seek an ancient artifact hidden on Moana’s island, believing it holds the power to restore their barren lands. As tensions escalate into explosive naval battles, Moana and Maui navigate treacherous waters, uncovering the Kingdom’s desperation—a cursed blight withering their coconut groves. Blending courage with empathy, Moana devises a daring plan: unite both tribes to reignite the heart of Te Fiti, healing the land and bridging their divide. With dynamic oceanic clashes, Maui’s shapeshifting prowess, and themes of unity over conflict, the adventure culminates in a pact of shared stewardship, proving that understanding and cooperation are the greatest strengths of all.",
   },
   {
-    name: "Red One",
-    download_links: ["", "", ""],
-    image: "",
-    id: "2",
-    brief_intro: "",
+    name: "Venom Last Dance 2024",
+    download_links: [
+      "https://poawooptugroo.com/4/8901022",
+      "https://poawooptugroo.com/4/8901022",
+      "https://v.moviebox.ng/qV451p0llX8",
+      "https://tfpdl.se/?s=venom+the+last+dance",
+    ],
+    image: venom,
+    id: "venom-last-dance",
+    brief_intro:
+      "Venom: The Last Dance (2024) races into chaos as Eddie Brock and his alien alter-ego, Venom, become fugitives hunted by a lethal alliance of global militaries and symbiote overlords. With nowhere to hide, their desperate fight for survival collides with the cosmic horror of Knull, the primordial deity of the symbiote hive, who descends to annihilate all life. The film ignites with relentless stakes: high-octane chases through neon-lit cities, visceral symbiote-on-symbiote brawls that reshape skylines, and a wildly inventive showdown where Venom possesses a galloping horse to trample enemies in a midnight cavalry charge. As bonds fray and loyalties shatter, Eddie and Venom confront their twisted partnership in a shattering climax that forces a heart-wrenching choice—one that will redefine their destiny forever. Packed with dark humor, jaw-dropping spectacle, and a poignant farewell, The Last Dance delivers a thunderous, emotional crescendo to the duo’s chaotic saga.",
   },
   {
     name: "What IF Season 3",
