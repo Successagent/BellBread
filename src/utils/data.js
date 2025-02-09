@@ -128,8 +128,8 @@ export const MOVIES_TO_WATCH = [
   {
     name: "Moana Part 2",
     download_links: [
-      "https://poawooptugroo.com/4/8887923",
-      "https://poawooptugroo.com/4/8887923",
+      "https://poawooptugroo.com/4/8901022",
+      "https://poawooptugroo.com/4/8901022",
       "https://tfpdl.se/moana-2-2024-proper-2160p-web-dl-dd5-1-x265-tfpdl/",
       "https://moviebox.ng/movies/moana-2-C1roud60JE4?id=3908506583235477456&scene=&type=/movie/detail",
     ],
@@ -141,8 +141,8 @@ export const MOVIES_TO_WATCH = [
   {
     name: "Venom The Last Dance 2024",
     download_links: [
-      "https://poawooptugroo.com/4/8887923",
-      "https://poawooptugroo.com/4/8887923",
+      "https://poawooptugroo.com/4/8901022",
+      "https://poawooptugroo.com/4/8901022",
       "https://v.moviebox.ng/qV451p0llX8",
       "https://tfpdl.se/?s=venom+the+last+dance",
     ],
