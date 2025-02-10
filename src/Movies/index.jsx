@@ -21,7 +21,7 @@ const Movies = () => {
           <ul>
             {download_links?.map((links, index) => (
               <li key={index}>
-                <a target="_blank" href={links} rel="noopener noreferrer">
+                <a  href={links} rel="noopener noreferrer">
                   Download link {index + 1}
                 </a>
               </li>
