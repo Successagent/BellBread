@@ -1,5 +1,6 @@
 import moana from "../asset/moanas.webp";
 import venom from "../asset/venom.jpg";
+import invincible from "../asset/Invincible_S3_December_Poster.webp";
 
 export const pinTabs = [
   {
@@ -152,11 +153,16 @@ export const MOVIES_TO_WATCH = [
       "Venom: The Last Dance (2024) races into chaos as Eddie Brock and his alien alter-ego, Venom, become fugitives hunted by a lethal alliance of global militaries and symbiote overlords. With nowhere to hide, their desperate fight for survival collides with the cosmic horror of Knull, the primordial deity of the symbiote hive, who descends to annihilate all life. The film ignites with relentless stakes: high-octane chases through neon-lit cities, visceral symbiote-on-symbiote brawls that reshape skylines, and a wildly inventive showdown where Venom possesses a galloping horse to trample enemies in a midnight cavalry charge. As bonds fray and loyalties shatter, Eddie and Venom confront their twisted partnership in a shattering climax that forces a heart-wrenching choice—one that will redefine their destiny forever. Packed with dark humor, jaw-dropping spectacle, and a poignant farewell, The Last Dance delivers a thunderous, emotional crescendo to the duo’s chaotic saga.",
   },
   {
-    name: "What IF Season 3",
-    download_links: ["", "", ""],
-    image: "",
-    id: "3",
-    brief_intro: "",
+    name: "Invincible Sesason 3 2025",
+    download_links: [
+      "https://poawooptugroo.com/4/8901022",
+      "https://poawooptugroo.com/4/8901022",
+      "https://v.moviebox.ng/Cbqf8oiHgya",
+    ],
+    image: invincible,
+    id: "invincible-season-3",
+    brief_intro:
+      "Picking up after the explosive events of Season 2, Invincible Season 3 plunges Mark Grayson (Steven Yeun) deeper into chaos as the Viltrumite Empire’s threat escalates. With Earth caught in the crosshairs of an interstellar war, Mark struggles to balance his heroic duties with the emotional toll of betrayal, loss, and his evolving identity. New alliances form, old enemies resurface, and shocking revelations about the Viltrumites’ plans test Mark’s resolve like never before. As the line between hero and villain blurs, Season 3 promises relentless action, gut-wrenching choices, and deeper dives into fan-favorite characters like Atom Eve, Omni-Man, and the Guardians of the Globe. With its signature blend of brutal battles and heartfelt drama, Invincible continues to redefine superhero storytelling—one bloody, jaw-dropping moment at a time.",
   },
   {
     name: "Lord of the ring, Rings of power",
