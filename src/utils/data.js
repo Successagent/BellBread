@@ -1,6 +1,7 @@
 import moana from "../asset/moanas.webp";
 import venom from "../asset/venom.jpg";
 import invincible from "../asset/Invincible_S3_December_Poster.webp";
+import kraven from "../asset/Kraven_the_Hunter_(film)_poster.jpg";
 
 export const pinTabs = [
   {
@@ -165,10 +166,19 @@ export const MOVIES_TO_WATCH = [
       "Picking up after the explosive events of Season 2, Invincible Season 3 plunges Mark Grayson (Steven Yeun) deeper into chaos as the Viltrumite Empire’s threat escalates. With Earth caught in the crosshairs of an interstellar war, Mark struggles to balance his heroic duties with the emotional toll of betrayal, loss, and his evolving identity. New alliances form, old enemies resurface, and shocking revelations about the Viltrumites’ plans test Mark’s resolve like never before. As the line between hero and villain blurs, Season 3 promises relentless action, gut-wrenching choices, and deeper dives into fan-favorite characters like Atom Eve, Omni-Man, and the Guardians of the Globe. With its signature blend of brutal battles and heartfelt drama, Invincible continues to redefine superhero storytelling—one bloody, jaw-dropping moment at a time.",
   },
   {
-    name: "Lord of the ring, Rings of power",
-    download_links: ["", "", ""],
-    image: "",
-    id: "4",
-    brief_intro: "",
+    name: "Kraven The Hunter 2024",
+    download_links: [
+      "https://poawooptugroo.com/4/8901022",
+      "https://poawooptugroo.com/4/8901022",
+      "https://tfpdl.se/?s=Kraven",
+    ],
+    image: kraven,
+    id: "kraven-the-hunter",
+    brief_intro: `
+    Kraven the Hunter (2024) – Unleash the Ultimate Marvel Villain Origin Story
+Get ready for Kraven the Hunter, Sony’s 2024 blockbuster diving into the R-rated superhero film you’ve been craving! Starring Aaron Taylor-Johnson (Bullet Train, Avengers: Age of Ultron), this dark origin story redefines Marvel’s iconic antagonist, Sergei Kravinoff, as he transforms from mercenary to the world’s deadliest big-game hunter. Directed by J.C. Chandor (Triple Frontier), the film promises brutal action sequences, wilderness survival thrills, and a cinematic universe expansion within Sony’s Spider-Man Universe (SSU).
+
+Set to dominate as a global box office sensation, Kraven the Hunter explores themes of family legacy, obsession, and primal vengeance with R-rated intensity. Leaked exclusive behind-the-scenes footage teases epic showdowns, exotic locales, and hunting Spider-Man teases, fueling speculation of a superhero showdown in future SSU crossovers.
+    `,
   },
 ];
