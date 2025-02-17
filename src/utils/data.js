@@ -130,8 +130,8 @@ export const MOVIES_TO_WATCH = [
   {
     name: "Moana Part 2",
     download_links: [
-      "https://www.effectiveratecpm.com/q7wiyx90b?key=1979ace1f4e4d62e507cd3d0c7433fac",
-      "https://www.effectiveratecpm.com/q7wiyx90b?key=1979ace1f4e4d62e507cd3d0c7433fac",
+      "https://identifycertainlybookie.com/q7wiyx90b?key=1979ace1f4e4d62e507cd3d0c7433fac",
+      "https://identifycertainlybookie.com/q7wiyx90b?key=1979ace1f4e4d62e507cd3d0c7433fac",
       "https://tfpdl.se/moana-2-2024-proper-2160p-web-dl-dd5-1-x265-tfpdl/",
       "https://moviebox.ng/movies/moana-2-C1roud60JE4?id=3908506583235477456&scene=&type=/movie/detail",
     ],
@@ -143,8 +143,8 @@ export const MOVIES_TO_WATCH = [
   {
     name: "Venom The Last Dance 2024",
     download_links: [
-      "https://www.effectiveratecpm.com/q7wiyx90b?key=1979ace1f4e4d62e507cd3d0c7433fac",
-      "https://www.effectiveratecpm.com/q7wiyx90b?key=1979ace1f4e4d62e507cd3d0c7433fac",
+      "https://identifycertainlybookie.com/q7wiyx90b?key=1979ace1f4e4d62e507cd3d0c7433fac",
+      "https://identifycertainlybookie.com/q7wiyx90b?key=1979ace1f4e4d62e507cd3d0c7433fac",
       "https://v.moviebox.ng/qV451p0llX8",
       "https://tfpdl.se/?s=venom+the+last+dance",
     ],
@@ -156,8 +156,8 @@ export const MOVIES_TO_WATCH = [
   {
     name: "Invincible Sesason 3 2025",
     download_links: [
-      "https://www.effectiveratecpm.com/q7wiyx90b?key=1979ace1f4e4d62e507cd3d0c7433fac",
-      "https://www.effectiveratecpm.com/q7wiyx90b?key=1979ace1f4e4d62e507cd3d0c7433fac",
+      "https://identifycertainlybookie.com/q7wiyx90b?key=1979ace1f4e4d62e507cd3d0c7433fac",
+      "https://identifycertainlybookie.com/q7wiyx90b?key=1979ace1f4e4d62e507cd3d0c7433fac",
       "https://v.moviebox.ng/Cbqf8oiHgya",
     ],
     image: invincible,
@@ -168,8 +168,8 @@ export const MOVIES_TO_WATCH = [
   {
     name: "Kraven The Hunter 2024",
     download_links: [
-      "https://www.effectiveratecpm.com/q7wiyx90b?key=1979ace1f4e4d62e507cd3d0c7433fac",
-      "https://www.effectiveratecpm.com/q7wiyx90b?key=1979ace1f4e4d62e507cd3d0c7433fac",
+      "https://identifycertainlybookie.com/q7wiyx90b?key=1979ace1f4e4d62e507cd3d0c7433fac",
+      "https://identifycertainlybookie.com/q7wiyx90b?key=1979ace1f4e4d62e507cd3d0c7433fac",
       "https://tfpdl.se/?s=Kraven",
     ],
     image: kraven,
