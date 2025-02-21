@@ -65,10 +65,12 @@ img {
 .hero_sect_image_container {
   z-index: -1;
   height: 700px;
+  width: 50%;
 }
 
 .hero_sect_text_container {
   margin-top: 40px;
+  width: 50%;
 }
 
 .hero_sect_text_container .paragraph {
@@ -109,16 +111,14 @@ img {
   display: flex !important;
 }
 
-.pin_text_tab {
-  width: 60%;
-}
+
 
 .pin_text_tab button {
   margin-top: 40px;
 }
 
-.pin_text_tab .header_text {
-  margin: 20px 0;
+.pin_text_tab .what_we_do_paragraph_text {
+  font-size: 20px;
 }
 
 .pin_img_tab {

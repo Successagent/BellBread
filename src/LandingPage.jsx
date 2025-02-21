@@ -1,15 +1,22 @@
 import React, { useState } from "react";
 import { Button, Header, MotionRight, Motion, MotionX } from "./components";
-import intro from "./asset/intro.webp";
+import intro from "./asset/Invincible_S3_December_Poster.webp";
 import apple from "./asset/appstore.png";
 import playstore from "./asset/playstore.png";
-import { itemOne, itemThree, itemTwo, pinTabs } from "./utils/data";
+import {
+  itemOne,
+  itemThree,
+  itemTwo,
+  MOVIES_TO_WATCH,
+  pinTabs,
+} from "./utils/data";
 import truck from "./asset/truck.png";
 import what1 from "./asset/what1.webp";
 import what2 from "./asset/what2.webp";
 import what3 from "./asset/what3.webp";
 import faq from "./asset/faq.png";
 import Footer from "./components/Footer/Footer";
+import { Link } from "react-router-dom";
 
 const LandingPage = () => {
   const [tab, setTab] = useState(1);
@@ -35,15 +42,13 @@ const LandingPage = () => {
       <section className="hero_section">
         <div className="hero_sect_text_container">
           <Motion>
-            <h1 className="header_text">
-              Get Delicious Baked Treats Delivered to You
-            </h1>
+            <h1 className="header_text">Our Top Trending Movie Of The Week</h1>
           </Motion>
           <MotionX>
             <p className="paragraph">
-              Explore tasty baked goodies from local bakeries, delivered fresh
-              and warm to your doorstep. Enjoy croissants, pastries, and more
-              with just a tap. Order now for a delightful baked experience!
+              Looking for the latest movies in high quality? Success Movies
+              offers a vast collection of Hollywood, Bollywood, and regional
+              films, available for fast and secure downloads.
             </p>
           </MotionX>
           <MotionRight>
@@ -59,9 +64,7 @@ const LandingPage = () => {
           </MotionX>
         </div>
         <div className="hero_sect_image_container">
-          <MotionRight>
-            <img src={intro} alt="" />
-          </MotionRight>
+          <img src={intro} alt="" />
         </div>
       </section>
       <section id="about" className="landing_section_two">
@@ -78,9 +81,12 @@ const LandingPage = () => {
                   </p>
                 </MotionX>
                 <Motion>
-                  <h1 style={{ color: "white" }} className="header_text">
+                  <p
+                    className="what_we_do_paragraph_text"
+                    style={{ color: "white" }}
+                  >
                     {item.title}
-                  </h1>
+                  </p>
                 </Motion>
                 <MotionX>
                   <Button
@@ -91,19 +97,6 @@ const LandingPage = () => {
                     title={"Contact us"}
                   />
                 </MotionX>
-              </div>
-              <div className="pin_img_tab">
-                <div className="truck">
-                  <Motion>
-                    <img src={truck} alt="" />
-                  </Motion>
-                </div>
-                <MotionX>
-                  <h2>{item.intro}</h2>
-                </MotionX>
-                <MotionRight>
-                  <p>{item.paragraph2}</p>
-                </MotionRight>
               </div>
             </div>
           );
@@ -118,7 +111,7 @@ const LandingPage = () => {
         <div className="what_we_do_items">
           <div className="what_image_container">
             <MotionX>
-              <img src={what1} alt="" />
+              <img src={MOVIES_TO_WATCH[0].image} alt="" />
             </MotionX>
           </div>
           <div className="what_hr">
@@ -131,22 +124,22 @@ const LandingPage = () => {
           </div>
           <div className="what_text_container">
             <MotionRight>
-              <h2>Browse and Place Order</h2>
+              <h2>{MOVIES_TO_WATCH[0].name}</h2>
             </MotionRight>
             <Motion>
-              <p>
-                Browse our delicious selection, choose your favorite baked
-                treats, and add them to your cart.
-              </p>
+              <p>{MOVIES_TO_WATCH[0].brief_intro}</p>
             </Motion>
             <MotionX>
-              <Button
-                background={"#3BD07B"}
-                color={"white"}
-                width={212}
-                height={50}
-                title={"Download now"}
-              />
+              <Link to={`/movies/${MOVIES_TO_WATCH[0]?.id}`}>
+                <Button
+                  background={"#3BD07B"}
+                  color={"white"}
+                  width={212}
+                  height={50}
+                  title={"Download now"}
+                  action={() => ""}
+                />
+              </Link>
             </MotionX>
           </div>
         </div>
@@ -156,7 +149,7 @@ const LandingPage = () => {
         >
           <div className="what_image_container">
             <Motion>
-              <img src={what2} alt="" />
+              <img src={MOVIES_TO_WATCH[1].image} alt="" />
             </Motion>
           </div>
           <div className="what_hr">
@@ -169,30 +162,29 @@ const LandingPage = () => {
           </div>
           <div className="what_text_container">
             <MotionRight>
-              <h2>Fast Delivery to Location</h2>
+              <h2>{MOVIES_TO_WATCH[1].name}</h2>
             </MotionRight>
             <MotionX>
-              <p>
-                Review your order, select your payment method, and confirm your
-                delivery details. It's quick and secure with delivery to your
-                location
-              </p>
+              <p>{MOVIES_TO_WATCH[1].brief_intro}</p>
             </MotionX>
             <Motion>
-              <Button
-                background={"#3BD07B"}
-                color={"white"}
-                width={212}
-                height={50}
-                title={"Download now"}
-              />
+              <Link to={`/movies/${MOVIES_TO_WATCH[1]?.id}`}>
+                <Button
+                  background={"#3BD07B"}
+                  color={"white"}
+                  width={212}
+                  height={50}
+                  title={"Download now"}
+                  action={() => ""}
+                />
+              </Link>
             </Motion>
           </div>
         </div>
         <div className="what_we_do_items">
           <div className="what_image_container">
             <MotionX>
-              <img src={what3} alt="" />
+              <img src={MOVIES_TO_WATCH[2].image} alt="" />
             </MotionX>
           </div>
           <div className="what_hr">
@@ -205,22 +197,22 @@ const LandingPage = () => {
           </div>
           <div className="what_text_container">
             <Motion>
-              <h2>Receive and Enjoy</h2>
+              <h2>{MOVIES_TO_WATCH[2].name}</h2>
             </Motion>
             <MotionRight>
-              <p>
-                Sit back, relax, and wait for your freshly baked goodies to
-                arrive at your doorstep. Indulge in the deliciousness!
-              </p>
+              <p>{MOVIES_TO_WATCH[2].brief_intro}</p>
             </MotionRight>
             <MotionX>
-              <Button
-                background={"#3BD07B"}
-                color={"white"}
-                width={212}
-                height={50}
-                title={"Download now"}
-              />
+              <Link to={`/movies/${MOVIES_TO_WATCH[2]?.id}`}>
+                <Button
+                  background={"#3BD07B"}
+                  color={"white"}
+                  width={212}
+                  height={50}
+                  title={"Download now"}
+                  action={() => ""}
+                />
+              </Link>
             </MotionX>
           </div>
         </div>

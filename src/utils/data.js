@@ -5,25 +5,12 @@ import kraven from "../asset/Kraven_the_Hunter_(film)_poster.jpg";
 
 export const pinTabs = [
   {
-    title: "We are a fast food delivery service scaled to meet your need",
-    paragraph: "WHO WE ARE",
-    intro: "Freshly Baked Daily",
-    paragraph2:
-      "Enjoy the assurance of freshly baked treats every day. We partner with local bakeries to bring you warm, just-out-of-the-oven goodies, ensuring every bite is a delight.",
-  },
-  {
-    title: "We are a fast food delivery service scaled to meet your need",
+    title:
+      "At Success Movies, we are passionate about bringing the best entertainment straight to your device. Our platform offers a vast collection of movies across various genres, ensuring a seamless and high-quality downloading experience. With a user-friendly interface and fast downloads, we make it easy for movie lovers to access their favorite films anytime, anywhere. Join us and enjoy unlimited entertainment at your fingertips!",
     paragraph: "WHO WE ARE",
     intro: "No More Waiting",
     paragraph2:
       "Say goodbye to long lines and waiting times. Order from your favorite bakeries with our app, and we'll have your baked goods prepared and delivered to you promptly.",
-  },
-  {
-    title: "We are a fast food delivery service scaled to meet your need",
-    paragraph: "WHO WE ARE",
-    intro: "Wide Variety of Choices",
-    paragraph2:
-      "Explore a wide range of baked delights, from classic croissants to indulgent pastries. Our app offers a diverse menu, so you can satisfy your cravings with something new or stick to your favorites.",
   },
 ];
 
