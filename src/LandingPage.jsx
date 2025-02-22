@@ -10,7 +10,6 @@ import {
   MOVIES_TO_WATCH,
   pinTabs,
 } from "./utils/data";
-import truck from "./asset/truck.png";
 import what1 from "./asset/what1.webp";
 import what2 from "./asset/what2.webp";
 import what3 from "./asset/what3.webp";
