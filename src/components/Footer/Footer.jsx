@@ -2,7 +2,6 @@ import React from "react";
 import GetStarted from "../GetStarted";
 import HeaderLogo from "../../asset/footerlogo.png";
 import { MdLocationPin } from "react-icons/md";
-import { BsTelephone } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 import facebook from "../../asset/facebook.svg";
 import instagram from "../../asset/instagram.svg";
@@ -52,8 +51,8 @@ const Footer = () => {
             <div className="flex">
               <AiOutlineMail size={18} color="white" style={{ width: "10%" }} />
               <p>
-                <a href="mailto:info@bellsbreads.com">
-                  support@astromovies.com
+                <a href="mailto:support@moviesdownloadlink.org">
+                  support@moviesdownloadlink.org
                 </a>
               </p>
             </div>
@@ -62,7 +61,7 @@ const Footer = () => {
       </section>
       <section className="footer_contact">
         <p>
-          <Motion>© All Rights Reserved. 2025, AstroMovies</Motion>
+          <Motion>© All Rights Reserved. 2025, Movies Download Links</Motion>
         </p>
         <div className="footer_icon_section">
           <MotionX>

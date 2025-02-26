@@ -14,8 +14,8 @@ const GetStarted = () => {
         </MotionX>
         <Motion>
           <p>
-            AstroMovies Got you covered on every movie of your choice to, to
-            know more contact us{" "}
+            MoviesDownloadLinks Got you covered on every movie of your choice
+            to, to know more contact us{" "}
           </p>
         </Motion>
       </div>

@@ -428,6 +428,12 @@ footer {
     display: none;
   }
 
+  .hero_sect_text_container,
+  .hero_sect_image_container {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
   .mobile_view {
     display: block !important;
   }
