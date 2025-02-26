@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Button, Header, MotionRight, Motion, MotionX } from "./components";
-import intro from "./asset/gladiator_II.width-700.jpg";
+import intro from "./asset/Invincible_S3_December_Poster.webp";
 import apple from "./asset/appstore.png";
 import playstore from "./asset/playstore.png";
 import {
