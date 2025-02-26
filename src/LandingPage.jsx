@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Button, Header, MotionRight, Motion, MotionX } from "./components";
-import intro from "./asset/Invincible_S3_December_Poster.webp";
+import intro from "./asset/gladiator_II.width-700.jpg";
 import apple from "./asset/appstore.png";
 import playstore from "./asset/playstore.png";
 import {
@@ -144,7 +144,7 @@ const LandingPage = () => {
         </div>
         <div
           className="what_we_do_items"
-          style={{ flexDirection: "row-reverse" }}
+          style={{ flexDirection: "row-reverse", marginTop: 30 }}
         >
           <div className="what_image_container">
             <Motion>
@@ -203,6 +203,79 @@ const LandingPage = () => {
             </MotionRight>
             <MotionX>
               <Link to={`/movies/${MOVIES_TO_WATCH[2]?.id}`}>
+                <Button
+                  background={"#3BD07B"}
+                  color={"white"}
+                  width={212}
+                  height={50}
+                  title={"Download now"}
+                  action={() => ""}
+                />
+              </Link>
+            </MotionX>
+          </div>
+        </div>
+        <div className="what_we_do_items">
+          <div className="what_image_container">
+            <MotionX>
+              <img src={MOVIES_TO_WATCH[3].image} alt="" />
+            </MotionX>
+          </div>
+          <div className="what_hr">
+            <div className="indicator">4</div>
+            <div className="hrs">
+              {itemOne.map((item, key) => {
+                return <div key={key}></div>;
+              })}
+            </div>
+          </div>
+          <div className="what_text_container">
+            <Motion>
+              <h2>{MOVIES_TO_WATCH[3].name}</h2>
+            </Motion>
+            <MotionRight>
+              <p>{MOVIES_TO_WATCH[3].brief_intro}</p>
+            </MotionRight>
+            <MotionX>
+              <Link to={`/movies/${MOVIES_TO_WATCH[3]?.id}`}>
+                <Button
+                  background={"#3BD07B"}
+                  color={"white"}
+                  width={212}
+                  height={50}
+                  title={"Download now"}
+                  action={() => ""}
+                />
+              </Link>
+            </MotionX>
+          </div>
+        </div>
+        <div
+          style={{ flexDirection: "row-reverse", marginTop: 30 }}
+          className="what_we_do_items"
+        >
+          <div className="what_image_container">
+            <MotionX>
+              <img src={MOVIES_TO_WATCH[4].image} alt="" />
+            </MotionX>
+          </div>
+          <div className="what_hr">
+            <div className="indicator">5</div>
+            <div className="hrs">
+              {itemOne.map((item, key) => {
+                return <div key={key}></div>;
+              })}
+            </div>
+          </div>
+          <div className="what_text_container">
+            <Motion>
+              <h2>{MOVIES_TO_WATCH[4].name}</h2>
+            </Motion>
+            <MotionRight>
+              <p>{MOVIES_TO_WATCH[4].brief_intro}</p>
+            </MotionRight>
+            <MotionX>
+              <Link to={`/movies/${MOVIES_TO_WATCH[4]?.id}`}>
                 <Button
                   background={"#3BD07B"}
                   color={"white"}
@@ -289,7 +362,7 @@ const LandingPage = () => {
             </div>
             <div
               className="what_we_do_items"
-              style={{ flexDirection: "row-reverse" }}
+              style={{ flexDirection: "row-reverse", marginTop: 30 }}
             >
               <div className="what_image_container">
                 <Motion>

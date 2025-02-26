@@ -2,6 +2,7 @@ import moana from "../asset/moanas.webp";
 import venom from "../asset/venom.jpg";
 import invincible from "../asset/Invincible_S3_December_Poster.webp";
 import kraven from "../asset/Kraven_the_Hunter_(film)_poster.jpg";
+import gladiator from "../asset/gladiator_II.width-700.jpg";
 
 export const pinTabs = [
   {
@@ -167,5 +168,18 @@ Get ready for Kraven the Hunter, Sony’s 2024 blockbuster diving into the R-rat
 
 Set to dominate as a global box office sensation, Kraven the Hunter explores themes of family legacy, obsession, and primal vengeance with R-rated intensity. Leaked exclusive behind-the-scenes footage teases epic showdowns, exotic locales, and hunting Spider-Man teases, fueling speculation of a superhero showdown in future SSU crossovers.
     `,
+  },
+  {
+    name: "Gladiator II",
+    download_links: [
+      "https://identifycertainlybookie.com/g9qse8n1?key=754bf79eb61f8abccaa315473c7b8f59",
+      "https://identifycertainlybookie.com/g9qse8n1?key=754bf79eb61f8abccaa315473c7b8f59",
+      "https://v.moviebox.ng/q5OfKwNX4e1",
+    ],
+    image: gladiator,
+    id: "gladiator-2",
+    brief_intro: `Directed by Ridley Scott, Gladiator 2 is the long-awaited sequel to the 2000 Academy Award-winning epic Gladiator. Set over 20 years after the original, the story centers on Lucius Verus (Paul Mescal), the now-adult son of Lucilla (Connie Nielsen) and nephew of the deceased tyrant Commodus (Joaquin Phoenix). Having idolized Maximus Decimus Meridius (Russell Crowe) as a child, Lucius is thrust into a perilous new chapter of political chaos in the Roman Empire. Torn between his privileged upbringing and the brutal realities of power, he becomes entangled in a rebellion against corrupt forces threatening Rome’s stability.
+
+The film introduces new characters, including a mysterious ex-slave-turned-arms dealer played by Denzel Washington and a battle-hardened general portrayed by Pedro Pascal. Returning cast members like Derek Jacobi (Senator Gracchus) deepen ties to the original. Blending visceral action, emotional stakes, and themes of legacy and vengeance, Gladiator 2 revisits the grandeur of ancient Rome while forging its own path. Released in November 2024, it aims to honor Maximus’ enduring legacy while expanding the saga’s mythos. `,
   },
 ];
