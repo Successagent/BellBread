@@ -51,8 +51,8 @@ const Footer = () => {
             <div className="flex">
               <AiOutlineMail size={18} color="white" style={{ width: "10%" }} />
               <p>
-                <a href="mailto:support@moviesdownloadlink.org">
-                  support@moviesdownloadlink.org
+                <a href="mailto:support@movieseriesdownload.online">
+                  support@movieseriesdownload.online
                 </a>
               </p>
             </div>
@@ -61,7 +61,7 @@ const Footer = () => {
       </section>
       <section className="footer_contact">
         <p>
-          <Motion>© All Rights Reserved. 2025, Movies Download Links</Motion>
+          <Motion>© All Rights Reserved. 2025, Movie Series Download</Motion>
         </p>
         <div className="footer_icon_section">
           <MotionX>

@@ -45,9 +45,9 @@ const LandingPage = () => {
           </Motion>
           <MotionX>
             <p className="paragraph">
-              Looking for the latest movies in high quality? Success Movies
-              offers a vast collection of Hollywood, Bollywood, and regional
-              films, available for fast and secure downloads.
+              Looking for the latest movies in high quality? Movie Series
+              Download offers a vast collection of Hollywood, Bollywood, and
+              regional films, available for fast and secure downloads.
             </p>
           </MotionX>
           <MotionRight>

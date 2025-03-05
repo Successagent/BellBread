@@ -7,7 +7,7 @@ import gladiator from "../asset/gladiator_II.width-700.jpg";
 export const pinTabs = [
   {
     title:
-      "At Movies Download Links, we are passionate about bringing the best entertainment straight to your device. Our platform offers a vast collection of movies across various genres, ensuring a seamless and high-quality downloading experience. With a user-friendly interface and fast downloads, we make it easy for movie lovers to access their favorite films anytime, anywhere. Join us and enjoy unlimited entertainment at your fingertips!",
+      "At Movie Series Download, we are passionate about bringing the best entertainment straight to your device. Our platform offers a vast collection of movies across various genres, ensuring a seamless and high-quality downloading experience. With a user-friendly interface and fast downloads, we make it easy for movie lovers to access their favorite films anytime, anywhere. Join us and enjoy unlimited entertainment at your fingertips!",
     paragraph: "WHO WE ARE",
     intro: "No More Waiting",
     paragraph2:
